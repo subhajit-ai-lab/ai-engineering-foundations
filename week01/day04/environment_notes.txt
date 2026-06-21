@@ -1,0 +1,17 @@
+Virtual Environment Commands
+
+Create:
+python -m venv venv
+
+Activate:
+venv\Scripts\activate
+
+View Packages:
+pip list
+
+Export Packages:
+pip freeze > requirements.txt
+
+Install From Requirements:
+pip install -r requirements.txt
+
